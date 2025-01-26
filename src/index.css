@@ -1,0 +1,65 @@
+/* @keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scrollText {
+  animation: scrollText 10s linear infinite;
+} */
+
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes scrollText {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-scrollText {
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+    white-space: nowrap;
+  }
+   */
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scrollText {
+  display: flex;
+  animation: scrollText 10s linear infinite;
+  white-space: nowrap;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
