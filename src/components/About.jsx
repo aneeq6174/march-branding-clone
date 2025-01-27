@@ -88,7 +88,7 @@ const About = () => {
 
     return (
         <section>
-            <div className="AboutSection font-outfit text-white px-4 md:px-20 bg-red-900">
+            <div className="AboutSection font-outfit text-white px-4 md:px-20 bg-customGray">
 
                 {/*Introdctory Video*/}
                 <div className="introVideo pt-28 md:pt-0">
